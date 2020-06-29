@@ -1,0 +1,131 @@
+/* will add comments to what i have done... also deleted unneccessary blocks of css which were in here originally.  */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header section {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* didnt know quite how to otimize/clean up the header portion.. remains largely unchanged above */
+li{
+    display: inline-block;
+    margin-left: 25px;
+}
+/* didnt need to define <ul> */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* combine both into same line since were same */
+.float-left, .float-right {
+    float: left;
+    margin-right: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* generalize benefits */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* generalize benefits1 margin and color */
+.benefits1 {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* dont quite know how to get around this specific call out... seems like I should be able to generalize img... but didnt work */
+.benefits1 img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* define header sizes to make sure they follow sizing rules as detailed in assignment */
+h2 { 
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+h3{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* generalize everything that falls into use-case section */
+.use-case {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* again, dont know about images */
+.use-case img {
+    max-height: 200px;
+}
+
+/* footer largely unchanged... removed footer header formatting, though.  */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* 
+h1: 48px
+h2: 36px
+h3: 24px
+h4: haven't needed to define yet
+*/
