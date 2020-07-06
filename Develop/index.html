@@ -10,16 +10,18 @@
 <body>
     <section class="header"> <!--- make it a section-->
         <h1>Hori<span class="seo" >seo</span>n</h1> <!---unable to initially figure out how to change just a few letters in this scenario... leaving the css for now-->
-        <section>
+        <section class="top">
+        <!-- trying to add some specificity so I can add a border and stuff -->
             <ul>
                 <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                    <!-- should probably remove href from the <a> since we dont have anything to link them to... -->
+                    <a>Search Engine Optimization</a>
                 </li>
                 <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
+                    <a>Online Reputation Management</a>
                 </li>
                 <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
+                    <a>Social Media Marketing</a>
                 </li>
             </ul>
         </section>
@@ -72,7 +74,7 @@
         </section>
     </aside>
     <footer class="footer"> <!--- we dont need a special footer h2-->
-        <h2>Made with ❤️️ by Horiseon</h2>
+        <h4>Made with ❤️️ by Horiseon</h4>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>

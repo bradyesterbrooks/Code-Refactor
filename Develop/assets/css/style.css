@@ -15,6 +15,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    
 }
 
 .header h1 {
@@ -33,11 +34,21 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+
+.top {
+    border: solid #d9dcd6;
+    align-content: center;
+    padding-right: 22px;
+    padding-bottom: 13px;
+
+}
 /* didnt know quite how to otimize/clean up the header portion.. remains largely unchanged above */
 li{
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 25px; 
 }
+
+
 /* didnt need to define <ul> */
 a {
     color: #ffffff;
@@ -77,6 +88,7 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    
 }
 /* generalize benefits1 margin and color */
 .benefits1 {
@@ -88,17 +100,20 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    
 }
 /* define header sizes to make sure they follow sizing rules as detailed in assignment */
 h2 { 
     margin-bottom: 20px;
     font-size: 36px;
+    color: #d9dcd6;
 }
 
 h3{
     margin-bottom: 10px;
     text-align: center;
     font-size: 24px;
+    color: #d9dcd6;
 }
 
 /* generalize everything that falls into use-case section */
@@ -113,6 +128,9 @@ h3{
 /* again, dont know about images */
 .use-case img {
     max-height: 200px;
+    padding:1px;
+    border:1px solid #d9dcd6;
+    /* add a little "double" border for looks */
 }
 
 /* footer largely unchanged... removed footer header formatting, though.  */
